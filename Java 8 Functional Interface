@@ -1,0 +1,10 @@
+@FunctionalInterface
+interface Lambda {
+	void show();
+}
+public class MyLambda {
+  public static void main(String[] args) {
+	  		Lambda lambda = ()-> System.out.println("Hello World");
+	  		lambda.show();
+}
+}
