@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+import java.util.Collections;
+public class Test{
+	public static void main(String[] args) {
+		ArrayList <Integer>list = new ArrayList<>();
+		list.add(5);list.add(10);list.add(10);list.add(78);list.add(45);
+		Collections.sort(list,(i1,i2)->(i1>i2)?-1:(i1==i2)?0:+1);
+		System.out.println(list);
+	}
+}
